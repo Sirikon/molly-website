@@ -45,6 +45,12 @@ html, body {
     font-family: serif;
     cursor: pointer;
     outline: none !important;
+    color: black;
+}
+
+.m-download-button-link {
+    text-decoration: none;
+    color: black;
 }
 
 .m-download-info {
