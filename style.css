@@ -1,0 +1,54 @@
+@import 'https://fonts.googleapis.com/css?family=Sacramento';
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.m-container {
+    display: inline-block;
+    text-align: center;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.m-molly-pic {
+    width: 300px;
+}
+
+.m-title {
+    font-family: 'Sacramento', cursive;
+    font-weight: normal;
+    font-size: 5em;
+    margin: 0;
+}
+
+.m-description {
+    font-size: 1.2em;
+}
+
+.m-description-extra {
+    opacity: 0.5;
+    font-size: 0.9em;
+}
+
+.m-download-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    margin: 0;
+    padding: 5px 10px;
+    font-size: 1.3em;
+    font-family: serif;
+    cursor: pointer;
+    outline: none !important;
+}
+
+.m-download-info {
+    opacity: 0.5;
+    margin: 1px 0 0 0;
+    font-size: 0.8em;
+}
