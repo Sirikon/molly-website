@@ -44,7 +44,7 @@ html, body {
     font-size: 0.9em;
 }
 
-.m-download-button {
+.m-button {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -61,7 +61,23 @@ html, body {
     border-radius: 3px;
 }
 
-.m-download-button-link {
+.m-button-alt {
+    border: 2px solid #afafaf;
+    background-color: transparent;
+    color: #444444;
+}
+
+.m-button .fa {
+    font-size: 0.8em;
+    margin-right: 0.1em;
+}
+
+.m-button-big {
+    font-size: 1.5em;
+    padding: 10px 15px;
+}
+
+.m-button-link {
     text-decoration: none;
     color: black;
 }
