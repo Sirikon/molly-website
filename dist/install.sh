@@ -4,7 +4,7 @@
 # How to use:
 #   curl https://molly.sirikon.me/install.sh | bash
 
-binary_download_url="https://dl.sirikon.me/molly.zip"
+binary_download_url="https://molly-dl.sirikon.me/molly.zip"
 temp_download_folder=/tmp/molly_installer
 
 function download_molly {
